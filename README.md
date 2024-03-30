@@ -9,3 +9,13 @@ A chrome extension to add keyboard navigation for google search result.
 - /: Focus input field
 - G + [A/I/V/M/N]: [All/Image/Videos/Maps/News]
 - G + shift-V: verbatim search
+
+## Build
+
+```bash
+pnpm install
+pnpm build
+```
+
+use `dist` folder as unpacked extension in chrome.
+
